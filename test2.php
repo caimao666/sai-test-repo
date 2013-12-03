@@ -1,5 +1,5 @@
 <?
-$str = "HANDLE_NAME = 'Maxim', ACCOUNT_ID = '', PASSWORD = 'bdsjhdasid,dsjadiojasidoja', TEST_STRING = 'You're super cool!', MODEL_CHANGE_CNT = 0";
+$str = "HANDLE_NAMEdd = 'Maxim', ACCOUNT_ID = '', PASSWORD = 'bdsjhdasid,dsjadiojasidoja', TEST_STRING = 'You're super cool!', MODEL_CHANGE_CNT = 0";
 echo "Current String: " . $str . "<br />";
 $testArray = str_getcsv($str, ",", "'");
 for($i=0;$i<count($testArray);$i++)
